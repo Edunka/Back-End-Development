@@ -1,0 +1,66 @@
+*{
+    font-family: sans-serif;
+}
+
+html{
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: grey;
+}
+.home,
+.contact{
+    margin-left: 10px;
+    width: max-content;
+}
+.btn-line{
+    width: 20px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    border-radius: 2%;
+}
+.about{
+    color: white;
+}
+footer{
+    color: white;
+    background-color: black;
+    position: sticky;
+    top: 100%;
+}
+
+.student-form{
+    width: 500px;
+    border: 5px solid black;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 15px;
+    border-radius: 3%;
+    color: white;
+}
+
+@media(max-width:575px){
+    .btn{
+        margin-top: 5px;
+    }
+    .home{
+        margin-bottom: 5px;
+    }
+    .contact{
+        margin-right: 10px;
+    }
+    
+}
+
+
+@media(max-width:800px){
+    table{
+        display: block;
+    }
+}
